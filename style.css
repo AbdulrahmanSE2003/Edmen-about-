@@ -37,6 +37,9 @@ body {
   background-color: #c0c9d0;
 }
 
+html {
+  overflow-x: hidden;
+}
 
 /* *SECTION - Navbar */
 /*! Start Navbar */
@@ -189,9 +192,6 @@ nav {
 
 /*! End Navbar */
 
-
-
-
 /* *SECTION - About-main-section */
 .about-main-section-breif::before {
   content: '';
@@ -202,6 +202,11 @@ nav {
   right: -20px;
   transition: height 2s ease-in-out;
   transition-delay: 1s;
+}
+
+.about-main-section-breif {
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .about-main-section-breif h3,
